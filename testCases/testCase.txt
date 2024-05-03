@@ -1,0 +1,69 @@
+in:
+add-library#admin|AdminPass|L001|Central Library|1340|60|AUT Saboori
+add-category#admin|AdminPass|C001|Computer|null
+add-category#admin|AdminPass|C002|Computer Science|C001
+add-category#admin|AdminPass|C003|Computer Engineering|C001
+add-manager#admin|AdminPass|111|222|Manager1Name|Manager1Family|0128886789|1345|Tehran, Tajrish|L001
+add-student#admin|AdminPass|222|333|Student1 Name|Student1 Family|0123456789|1379|Tehran, Saadat Abad
+add-student#admin|AdminPass|333|444|Student1 Name|Student1 Family|0123456789|1379|Tehran, Saadat Abad
+add-book#111|222|B001|Introduction to Java|Author1|Publisher1|2021|5|C001|L001
+add-book#111|222|B002|Data Structures and Algorithms Made Easy|Author2|Publisher2|2014|6|C002|L001
+add-book#111|222|B003|Introduction to Java|Author1|Publisher1|2021|5|C001|L001
+add-book#111|222|B004|Data Structures and Algorithms Made Easy|Author2|Publisher2|2014|6|C002|L001
+add-thesis#111|222|B005|Thesis1|Student1Name|Professor1Name|1399|C002|L001
+add-thesis#111|222|B006|Thesis1|Student1Name|Professor1Name|1399|C002|L001
+add-thesis#111|222|B007|Thesis1|Student1Name|Professor1Name|1399|C002|L001
+add-thesis#111|222|B008|Thesis1|Student1Name|Professor1Name|1399|C002|L001
+add-selling-book#111|222|B009|Introduction to Python|Author8|uuuu|2016|20|250|11|C001|L001
+add-selling-book#111|222|B010|Introduction to Python|Author8|uuuu|2016|20|350|11|C001|L001
+add-selling-book#111|222|B011|Introduction to Python|Author8|uuuu|2016|20|450|11|C001|L001
+buy#222|333|L001|B009
+buy#222|333|L001|B010
+buy#222|333|L001|B011
+buy#222|333|L001|B010
+buy#222|333|L001|B010
+buy#222|333|L001|B011
+borrow#222|333|L001|B001|2023-04-2|16:00
+borrow#222|333|L001|B006|2023-04-2|16:00
+return#222|333|L001|B001|2023-04-4|18:00
+report-most-popular#111|222|L001
+return#222|333|L001|B006|2023-04-4|18:00
+report-most-popular#111|222|L001
+report-sell#111|222|L001
+finish
+
+out:
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+B001 1 3
+null
+success
+B001 1 3
+B006 1 3
+6 1955
+B010 3 933
