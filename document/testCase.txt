@@ -1,4 +1,4 @@
-in:
+input:
 add-library#admin|AdminPass|L001|Central Library|1340|60|AUT Saboori
 add-category#admin|AdminPass|C001|Computer|null
 add-category#admin|AdminPass|C002|Computer Science|C001
@@ -32,7 +32,8 @@ report-most-popular#111|222|L001
 report-sell#111|222|L001
 finish
 
-out:
+
+output:
 success
 success
 success
